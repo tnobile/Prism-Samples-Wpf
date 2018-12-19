@@ -6,6 +6,19 @@ namespace Regions
 {
     /**
      * http://brianlagunas.com/create-a-custom-prism-regionadapter/
+     * 
+     * 
+     * Prism provides 4 region adapters out of the box for you:
+
+        ContentControlRegionAdapter
+        SelectorRegionAdaptor
+        ItemsControlRegionAdapter
+        TabControlRegionAdapter (Silverlight only)
+
+        Well, what happens when you want to use a different control as a region host?  Simple.  
+        You need to write a custom region adapter for it.  Is it hard you ask?  
+        No it is quite easy.  
+        Let’s write one for the StackPanel.
      */
     public class StackPanelRegionAdapter : RegionAdapterBase<StackPanel>
     {
