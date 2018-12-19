@@ -4,6 +4,9 @@ using System.Windows.Controls;
 
 namespace Regions
 {
+    /**
+     * http://brianlagunas.com/create-a-custom-prism-regionadapter/
+     */
     public class StackPanelRegionAdapter : RegionAdapterBase<StackPanel>
     {
         public StackPanelRegionAdapter(IRegionBehaviorFactory regionBehaviorFactory)
